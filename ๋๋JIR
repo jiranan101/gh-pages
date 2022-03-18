@@ -89,7 +89,7 @@ contract xxxToken is ERC20Interface, SafeMath {
         decimals = 9; จำนวนทศนิยม
         _totalSupply = 1000000; ราคาเหรียญที่ตั้งไว้
         balances[0xD8D298B35A047E0B688e2bbdFA61CB5f14af0CD2] = _totalSupply;  โค้ดเหรียญที่มาจาก MetaMask อยู่หน้าบัญชีเรา
-        emit Transfer(address(0), 0xD8D298B35A047E0B688e2bbdFA61CB5f14af0CD2, _totalSupply); ที่อยู่ โดยคัดลอกจาก MetaMask อยู่หน้าบัญชีเรา
+        emit Transfer(address(0), 0xD8D298B35A047E0B688e2bbdFA61CB5f14af0CD2, _totalSupply); โอนที่อยู่ โดยคัดลอกจาก MetaMask อยู่หน้าบัญชีเรา
     }
 
 
